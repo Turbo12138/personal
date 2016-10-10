@@ -1,0 +1,33 @@
+@charset "utf-8";
+/* CSS Document */
+/*still*/
+.cur-1{color:#019DFF !important; border:1px solid #019DFF !important;}
+.display-none{ display:none !important;}
+.still .middle-on-2{ padding:0 50px; margin-top:36px;}
+.still .middle-on-2 .middle-top p{ height:42px; display:block; float:left;}
+.still .middle-on-2 .middle-top p span{ display: block;float: left; margin-left:15px; position:relative; }
+.still .middle-on-2 .middle-top ul{ display:block; width:328px; float:left;}
+.still .middle-on-2 .middle-top ul li{ float:left; margin-left:15px; position:relative;}
+.still .middle-on-2 .middle-top ul li>ol{ position: absolute;margin-left:-29px; }
+.still .middle-on-2 .middle-top ul li>ol>li{ float:none; margin:0;}
+.still .middle-on-2 .middle-top ul li>ol>li>a{ text-align:center; padding:0; width:133px; background:#CCCCCC; color:#0066FF;}
+.still .middle-on-2 .middle-top ul li a{line-height: 42px; position:relative;padding-right:30px; }
+.still .middle-on-2 .middle-top ul li a b{ display:block; width:10px; height:10px; position:absolute; top:19px; right:6px; background:url(../images/ph-12.png) no-repeat;}
+.still .middle-on-2 .middle-top ul li a b.first-on{background:url(../images/ph-10.png) no-repeat;}
+.still .middle-on-2 .middle-top p.text{font-size:39px; color:#B5B5B5; line-height:44px;margin-left:0px; padding-right:0;}
+.still .middle-on-2 .middle-top form{display: block;width: 210px;float: left; margin-left:5px;}
+.still .middle-on-2 .middle-top .input{ width:185px; padding-left:15px; margin:0; color:#D1D1D1;font-family: Arial,"Hiragino Sans GB","Microsoft YaHei","WenQuanYi Micro Hei",sans-serif;}
+.still .middle-on-2 .middle-top ul.width-1{ margin-left:170px;width:248px;}
+.still .middle-on-2 .middle-top ul.width-1 li>ol{ top:42px; margin:0;}
+.still .middle-on-2 .middle-top ul.width-1 li>ol>li a{width:228px; float:none; margin:0;background: #FBFAFA; text-align:left; padding-left:20px;}
+.still .middle-on-2 .middle-top ul.width-1 li>ol>li a span{ float:right; padding-right:15px;}
+.still .middle-on-2 .middle-top ul.width-1 li{ margin:0;}
+.still .middle-on-2 .middle-top a.width{display:block; float:left; width:196px; border:1px solid #CACACA; height:40px; line-height:42px; color:#D1D1D1;padding-left:20px; font-size:14px; position:relative;}
+.still .middle-on-2 .middle-top a.width b{ display:block; width:10px; height:10px; position:absolute; top:17px; right:14px; background:url(../images/ph-10.png) no-repeat;}
+.still .middle-on-2 .middle-middle{ margin-top:42px;}
+.still .middle-on-2 .middle-middle .middle-text{ margin-top:30px;}
+.still .middle-on-2 .middle-middle .margin{ margin-top:10px;}
+.still .middle-on-2 .middle-middle .middle-text h4{margin-bottom:19px;}
+.still .middle-on-2 .middle-middle .middle-text a{  padding:12px 28px; border:1px solid #D0D0D0; float:left; margin-right:15px;}
+.still .middle-on-2 .middle-bottom{ margin-top:120px; padding-bottom:45px;}
+.still .middle-on-2 .middle-bottom a{ display:block; width:329px; height:40px; text-align:center; line-height:40px; margin:0 auto; background:#029DFF; color:#fff; font-size:14px;}

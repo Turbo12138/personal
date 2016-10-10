@@ -1,0 +1,15 @@
+@charset "utf-8";
+/* CSS Document */
+/*information */
+.information .middle .middle-in .middle-on-2{ margin-top:50px;margin-bottom:40px;}
+.information .middle .middle-in .middle-on-2 form{ width:700px; margin-left: 429px;}
+.information .middle .middle-in .middle-on-2 form .submit-1{  margin-top:10px;padding-left:30px;color:#B5B5B5;height:40px; line-height:40px;background:url(../images/yap-5.png) no-repeat 5px -195px;}
+.information .middle .middle-in .middle-on-2 form .with{background:url(../images/little1.png) no-repeat -5px 6px !important;}
+.information .middle .middle-in .middle-on-2 form select.terd-1{width:330px; height:40px; margin-top:10px; padding-left:30px; border:0; border:1px solid #CACACA; font-size:14px;color:#B5B5B5;background:url(../images/yap-5.png) no-repeat 8px -297px;}
+.information .middle .middle-in .middle-on-2 form input.one{ background:url(../images/little1.png) no-repeat -5px 6px;}
+.information .middle .middle-in .middle-on-2 form input.two{ background:url(../images/little1.png) no-repeat -5px -45px;}
+.information .middle .middle-in .middle-on-2 form input.three{ background:url(../images/little1.png) no-repeat -5px -45px;}
+.information .middle .middle-in .middle-on-2 form input.four{ background:url(../images/little1.png) no-repeat -5px -147px;}
+.information .middle .middle-in .middle-on-2 form input.fire{ background:url(../images/yap-5.png) no-repeat 8px -247px;}
+.information .middle .middle-in .middle-on-2 form input.six{ background:url(../images/yap-5.png) no-repeat 8px -347px;}
+

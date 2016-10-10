@@ -1,0 +1,136 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>源学社个人用户中心</title>
+<link rel="stylesheet" href="../static/css/reset.css">
+<link rel="stylesheet" type="text/css" href="../static/css/head.css">
+<link rel="stylesheet" type="text/css" href="../static/css/Public.css">
+<link rel="stylesheet" type="text/css" href="../static/css/PC_register.css">
+<script type="text/javascript" src="../static/js/jquery-1.9.1.min.js"></script>
+<script type="text/javascript" src="../static/js/information.js"></script>
+</head>
+
+<body>
+<div class="information">
+	<div class="top f-cb">
+    	<div class="top-in">
+            <a href="javasrcipt:;">
+                <img src="../static/images/注册页logo.png" />
+            </a>
+            <div class="top-right">
+        		<p class="phone">联系电话:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;130286673447</p>
+            	<p class="address">公司地址：勒泰写字楼A座1616</p>
+        	</div>
+    	</div>
+    </div>
+    <div class="middle">
+    	<div class="middle-in">
+        	<div class="top-on-1 f-cb">
+            	<div class="right">
+                	<a class="text-on-1" href="javasrcipt:;">使用已有账号登录</a>
+                </div>
+            	<div class="navigation">
+                	<p class="f-cb">
+                    	<span>欢迎加入</span>
+                    	<span class="border"></span>
+                        <span class="one">完善账号</span>
+                        <span class="border"></span>
+                        <span>选择技能</span>
+                    </p>
+                </div>
+            </div>
+            <div class="middle-on-2 middle-on-1">
+            	<form method="" action="">
+                	<div class="Name">
+                        <input id="name" type="text" placeholder= " 姓名" class="one aa" name="uname" value=""/>
+                        <span class="name text-on-2"></span>
+                    </div>
+                    <div class="Judge">
+                        <select id="sex" class="terd-1 with sex" name="sex" >
+                            <option value="">性别</option>
+                            <option value="1">男</option>
+                            <option value="0">女</option>
+                        </select>
+                        <span class="judge text-on-2"></span>
+                    </div>
+                    <div class="Pass">
+                        <input id="phone" type="text" value="" placeholder="手机号" class="four dd" name="mobile" />
+                        <span class="pass text-on-2"></span>
+                    </div>
+                    <div id="s" class="submit-1 f-cb Birth">
+                    	<span>出生日期</span>
+                        <select id="birYear" class="year"></select>
+                        <select id="birMonth" class="terd month"></select>
+                        <select id="birDay" class="terd day"></select>
+                        <span class="birth text-on-2"></span>
+                    </div>
+                    <div class="Email">
+                        <input id="email" type="email" value="" placeholder="邮箱" class="fire" name="email" />
+                        <span class="email text-on-2"></span>
+                    </div>
+                    <div class="Level">
+                        <select id="education" class="terd-1" name="education">
+                            <option value="" selected="selected" >最高学历</option>
+                            <option value="1" <?php echo (isset($data["education"])?$data["education"]:'' == 1 ? 'selected' : ''); ?>>小学</option>
+                            <option value="2" <?php echo (isset($data["education"])?$data["education"]:'' == 2 ? 'selected' : ''); ?>>初中</option>
+                            <option value="3" <?php echo (isset($data["education"])?$data["education"]:'' == 3 ? 'selected' : ''); ?>>高中</option>
+                            <option value="4" <?php echo (isset($data["education"])?$data["education"]:'' == 4 ? 'selected' : ''); ?>>中专</option>
+                            <option value="5" <?php echo (isset($data["education"])?$data["education"]:'' == 5 ? 'selected' : ''); ?>>大专</option>
+                            <option value="6" <?php echo (isset($data["education"])?$data["education"]:'' == 6 ? 'selected' : ''); ?>>本科</option>
+                            <option value="7" <?php echo (isset($data["education"])?$data["education"]:'' == 7 ? 'selected' : ''); ?>>研究生</option>
+                        </select>
+                        <span class="level text-on-2"></span>
+                    </div>
+                    <div class="School">
+                        <input id="school" type="text" value="" placeholder="毕业院校" class="six" name="school" />
+                        <span class="school text-on-2"></span>
+                    </div>
+                    <div class="submit-1 f-cb EndTime">
+                    	<span>毕业时间</span>
+                        <select id="endYear" class="year"></select>
+                        <select id="endMonth" class="terd month"></select>
+                        <select id="endDay" class="terd day"></select>
+                        <span class="endTime text-on-2"></span>
+                    </div>
+                    <div class="Direction">
+                        <input id="major" type="text" value="" placeholder="所学专业" class="six" name="major" />
+                        <span class="direction text-on-2"></span>
+                    </div>
+                    <div class="submit">
+                    	<a href="javascript:void(0);" class="textN">提交注册</a>
+               	    </div>
+                    <input type="hidden" value="1" name="submit">
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="bottom f-cb">
+      <div class="left">
+    	<p>除特别说明外，用户内容采用：知识共享署名-相同方式共享 3.0中国大陆许可协议 <span>进行许可</span></p>
+      </div>
+      <div class="middle-text f-cb">
+      	<a class="one" href="#"></a>
+        <a class="two" href="#"></a>
+        <a class="three" href="#"></a>
+        <a class="four" href="#"></a>
+      </div>
+      <div class="right">
+      	<ul class="f-cb">
+        	<li><a href="#">关于我们</a></li>
+            <li>/</li>
+            <li><a href="#">企业合作</a></li>
+            <li>/</li>
+            <li><a href="#">联系我们</a></li>
+            <li>/</li>
+            <li><a href="#">版权声明</a></li>
+            <li>/</li>
+            <li><a href="#">隐私保护</a></li>
+            <li>/</li>
+            <li><a href="#">意见反馈</a></li>
+        </ul>
+      </div>
+    </div>
+</div>
+</body>
+</html>
